@@ -65,3 +65,5 @@ with expander:
     st.write("Weight = You can weigh an animal using a scale or the heart-girth technique.")
     st.write("Dose = You must be aware of the dosage of medication necessary for the animal.")
     st.write("Formulation = Drug formulation as specified by the manufacturer. To find it, look at the labels or other sources.")
+    
+st.text("Created by DrEnds")
