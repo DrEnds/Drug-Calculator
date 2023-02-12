@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title='Drug calculator', page_icon="💊")
 
 #title of an app
-st.title("Veterinary Drug Calculator")
+st.title("Veterinary Drug 💊 Calculator")
 st.info("Only valid if the drug is in solution.",icon="⚠️")
 
 #formula to calculate dose
@@ -65,5 +65,6 @@ with expander:
     st.write("Weight = You can weigh an animal using a scale or the heart-girth technique.")
     st.write("Dose = You must be aware of the dosage of medication necessary for the animal.")
     st.write("Formulation = Drug formulation as specified by the manufacturer. To find it, look at the labels or other sources.")
-    
+
+st.markdown("---")    
 st.text("Created by DrEnds")
