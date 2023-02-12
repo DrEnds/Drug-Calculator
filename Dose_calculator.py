@@ -54,9 +54,10 @@ if formulation_unit == "gm/ml":
 if st.button("Calculate"):
     st.subheader("Amount")
     calculate(weight,dose,formulation)
+    
+st.markdown("---") 
 
 expander = st.expander("How it's done ?", expanded=False)
-
 with expander:
     st.latex(r'''
     required_{ml} = 
@@ -66,5 +67,10 @@ with expander:
     st.write("Dose = You must be aware of the dosage of medication necessary for the animal.")
     st.write("Formulation = Drug formulation as specified by the manufacturer. To find it, look at the labels or other sources.")
 
-st.markdown("---")    
+expander2 = st.expander("Contact us", expanded=False)
+with expander2:
+    st.write("Please email me at wavensarti@gmail.com if you have any questions or need more information.")
+
+st.markdown("---")   
+
 st.text("Created by DrEnds")
